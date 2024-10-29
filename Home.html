@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <title>Home</title>
+  <style>
+    .carousel-inner img {
+      max-height: 700px; 
+      width: auto; 
+      object-fit: cover;
+      margin: auto;
+    }
+  </style>
+</head>
+<body style="background-color: darkgoldenrod;">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" style="padding: 20px 0;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Compositores famosos.html">Compositores famosos</a></li>
+            </ul>
+          </li>
+          <a class="navbar-brand mx-auto" href="#" style="padding-left: 700px;">Wien Opern</a>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button type="button" class="btn btn-warning">Procure</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide m-3">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="C:\Users\LG\Documents\Jean\Estado da arte\Ópera 1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Teatro</h5>
+          <p>O aconchego do teatro faz com que aumente a agradabilidade.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\LG\Documents\Jean\Estado da arte\Ópera 2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>História</h5>
+          <p>Assistir a uma peça onde tantos compositores famosos se apresentaram é uma experiência inesquecível.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\LG\Documents\Jean\Estado da arte\Ópera Haus.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Neoclassicismo</h5>
+          <p>A arquitetura neoclassicista confere um charme à casa de concertos.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</body>
+</html>
+
+  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 100%;">
+    COMPRE JÁ OS INGRESSOS!!!
+  </button>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ingressos</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Ingressos esgotados :(
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-4">
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-3">
+        <div class="card" style="width: 100%;">
+          <img src="C:\Users\LG\Documents\Jean\Estado da arte\Mozart.png" class="card-img-top" alt="Mozart">
+          <div class="card-body">
+            <p class="card-text" style="font-family: Arial, Helvetica, sans-serif;">Mozart mostrou uma habilidade musical prodigiosa desde sua infância. Já competente nos instrumentos de teclado e no violino, começou a compor aos cinco anos de idade, e passou a se apresentar para a realeza europeia, maravilhando a todos com seu talento precoce. Chegando à adolescência, foi contratado como músico da corte em Salzburgo, porém as limitações da vida musical na cidade o impeliram a buscar um novo cargo em outras cortes, mas sem sucesso. Ao visitar Viena em 1781 com seu patrão, desentendeu-se com ele e solicitou demissão, optando por ficar na capital, onde, ao longo do resto de sua vida, conquistou fama, porém pouca estabilidade financeira. Seus últimos anos viram surgir algumas de suas sinfonias, concertos e óperas mais conhecidos, além de seu Requiem. As circunstâncias de sua morte prematura deram origem a diversas lendas. Deixou uma esposa, Constanze, e dois filhos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card" style="width: 100%;">
+          <img src="C:\Users\LG\Documents\Jean\Estado da arte\Vivaldi.png" class="card-img-top" alt="Vivaldi">
+          <div class="card-body">
+            <p class="card-text" style="font-family: Arial, Helvetica, sans-serif;">Antonio Lucio Vivaldi (Veneza, 4 de março de 1678 — Viena, 28 de julho de 1741) foi um compositor e músico do estilo barroco tardio oriundo da República de Veneza, atual Itália. Tinha a alcunha de il Prete Rosso ("o padre ruivo") por ser um sacerdote católico de cabelos ruivos. Compôs 770 obras, entre as quais 477 concertos e 46 óperas. É conhecido do grande público principalmente por seus quatro concertos para violino e orquestra denominados Le quattro stagioni ("As Quatro Estações").</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-4 d-flex justify-content-center">
+    <div class="accordion" id="accordionPanelsStayOpenExample" style="margin: 0 px;">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Wiener Staatsoper
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            A Ópera Estatal de Viena (em alemão Wiener Staatsoper) é uma casa de ópera - e uma companhia de ópera - com uma grande história desde o século XIX. Está localizada no centro de Viena, Áustria. Os membros da Orquestra Filarmônica de Viena são recrutados dessa orquestra.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            História da Construção
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            O prédio foi o primeiro grande edifício no Wiener Ringstraße, construído graças ao Fundo de Expansão da Cidade. Começou a ser construído em 1861 e estava finalizado em 1869, seguindo os planos dos arquitetos August Sicard von Sicardsburg e Eduard van der Nüll. Foi feito num estilo neo-renascentista. Foi a primeira construção com finalidade operística em Viena.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Bombardeios e Reconstrução
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Durante a Segunda Guerra Mundial, mais precisamente em 12 de março de 1945, o prédio foi bombardeado pelos estadunidenses, destinado ao Raffinerie em Floridsdorf. A se(c)ção dianteira manteve-se intacta, incluindo o saguão com afrescos de Moritz von Schwind, as escadarias principais, o vestíbulo e o salão de chá. O auditório e o palco, no entanto, foram destruídos pelo fogo, assim como quase toda a decoração e adereços para mais de 120 óperas, com cerca de 150.000 figurinos. A companhia foi, temporariamente alojada, no Theater an der Wien e em Volksoper de Viena.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
